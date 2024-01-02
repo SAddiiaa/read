@@ -1,0 +1,123 @@
+ .sd{
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/04/Air_University_Main_Campus%2C_Islamabad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400vh;
+    width: 100%;
+    position:relative;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height:100%;
+
+}
+.air{
+    font-size: large;
+    color: rgb(96, 4, 4);
+}
+.h1{
+    background-color: #10025d;
+    color:white ;
+    text-align: center;
+    font-size: xx-large;
+    white-space: nowrap;
+}
+.h3{
+    
+    background-color: rgb(4, 22, 108);
+    color: White;
+    text-align: justify;
+    font-size: large;
+}
+.x{
+
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    lighting-color: blueviolet;
+}
+
+.box {
+    background-color: #10025d; /* Set background color for the box */
+    padding: 10px; /* Adjust padding as needed */
+    color: white;
+    font-size: larger;
+}
+.row{
+    display:flex ;
+    height: 50%;
+    align-items: center;
+
+}
+
+.box2{
+    width: 40px;
+    height: 40px;
+}
+.box1{
+     /* Set background color for the box */
+    padding: 10px; /* Adjust padding as needed */
+    color: white;
+    font-size: larger;
+    width: 20px;
+    height: 20px;
+}
+    .h4{
+        text-align: center;
+        color: white;
+        background: fixed;
+        background-color: rgb(31, 4, 120);
+        font-size: xx-large;
+    }
+    
+    .column {
+        justify-content: space-around;
+        float: left;
+        width: 33.33%;
+        padding: 0px;
+        white-space: nowrap;
+      }
+      
+      /* Clear floats after image containers */
+      .row::after {
+        justify-content: space-around;
+        white-space: nowrap;
+        content: "";
+        clear: both;
+        display: table;
+        padding: 0%;
+      }
+      .text{
+
+        background-image: url(https://www.au.edu.pk/AU_New_Assets/images/footerimages/footerau.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400vh;
+        width: 100%;
+        position:relative;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        height:100%;
+      }
+      .pg{
+        color: white;
+      }
+      .card-group {
+        display: flex; /* Use flex container for the card group */
+        justify-content: space-between; /* Adjust as needed for spacing between cards */
+      }
+      
+      .card {
+        width: 100%; /* Adjust the width as needed */
+        display: inline-block; /* Set cards to display inline */
+        margin-bottom: 15px; /* Add some margin between cards */
+      }
+      .card-image{
+        width: 30px;
+
+      }
+      
